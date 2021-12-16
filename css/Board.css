@@ -1,0 +1,117 @@
+.Light {
+    background-color: #779952;
+}
+.Dark {
+    background-color: #edeed1;
+}
+.SqSelected {
+    background-color: rgba(255, 255, 0, 0.8);
+}
+.Piece {
+    cursor: pointer;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+.Square {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.row1 {
+    top: 420px;
+}
+.row2 {
+    top: 360px;
+}
+.row3 {
+    top: 300px;
+}
+.row4 {
+    top: 240px;
+}
+.row5 {
+    top: 180px;
+}
+.row6 {
+    top: 120px;
+}
+.row7 {
+    top: 60px;
+}
+.row8 {
+    top: 0px;
+}
+.col1 {
+    left: 0px;
+}
+.col2 {
+    left: 60px;
+}
+.col3 {
+    left: 120px;
+}
+.col4 {
+    left: 180px;
+}
+.col5 {
+    left: 240px;
+}
+.col6 {
+    left: 300px;
+}
+.col7 {
+    left: 360px;
+}
+.col8 {
+    left: 420px;
+}
+.row8flip {
+    top: 420px;
+}
+.row7flip {
+    top: 360px;
+}
+.row6flip {
+    top: 300px;
+}
+.row5flip {
+    top: 240px;
+}
+.row4flip {
+    top: 180px;
+}
+.row3flip {
+    top: 120px;
+}
+.row2flip {
+    top: 60px;
+}
+.row1flip {
+    top: 0px;
+}
+.col8flip {
+    left: 0px;
+}
+.col7flip {
+    left: 60px;
+}
+.col6flip {
+    left: 120px;
+}
+.col5flip {
+    left: 180px;
+}
+.col4flip {
+    left: 240px;
+}
+.col3flip {
+    left: 300px;
+}
+.col2flip {
+    left: 360px;
+}
+.col1flip {
+    left: 420px;
+}

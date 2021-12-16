@@ -1,0 +1,131 @@
+.base-layout {
+    .base-container {
+        width: 90%;
+        height: 100%;
+        float: right;
+        position: relative;
+        .index-guest-block {
+            width: 90%;
+            height: 550px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .image-container {
+                display: block;
+                width: 500px;
+                height: 500px;
+                img {
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .index-intro {
+                width: 550px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                .index-title {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: auto;
+                    span {
+                        height: auto;
+                        font-size: 55px;
+                        font-style: bold;
+                    }
+                }
+
+                .index-info {
+                    width: 70%;
+                    height: 50px;
+                    display: flex;
+                    margin: 25px 0 35px 0;
+                    justify-content: space-between;
+                }
+
+                .index-guest-button-wrap {
+                    margin: 0 auto;
+                    display: block;
+                    width: 70%;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    .online-button {
+                        margin-bottom: 30px;
+                        background-color: #7fa650;
+                        box-shadow: 0 0.5rem 0 0 #537133, 0 0.7rem 0.95rem 0.05rem rgba(0, 0, 0, 0.2);
+                    }
+
+                    .online-button:hover {
+                        background-color: rgb(140, 201, 66);
+                    }
+
+                    .offline-button {
+                        background-color: #504f4f;
+                        box-shadow: 0 0.5rem 0 0 #777575, 0 0.7rem 0.95rem 0.05rem rgba(0, 0, 0, 0.2);
+                    }
+
+                    .offline-button:hover {
+                        background-color: #807d7d;
+                    }
+
+                    button {
+                        background: transparent;
+                        border: none;
+                        outline: none;
+                        border-radius: 15px;
+                        width: 100%;
+                        height: 90px;
+                        position: relative;
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            text-align: center;
+                            justify-content: start;
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                margin: auto 20px;
+                            }
+
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                                text-align: start;
+                                h2,
+                                span {
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        height: 120%;
+    }
+    .base-container {
+        .index-guest-block {
+            flex-direction: column;
+            .image-container {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

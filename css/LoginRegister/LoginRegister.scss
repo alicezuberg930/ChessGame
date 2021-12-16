@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../../images/login_background.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-box {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(221, 238, 240, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .button-box {
+        position: relative;
+        margin: 20px auto;
+        width: 260px;
+        height: 50px;
+        box-shadow: 0 0 20px 9px #ff61241f;
+        border-radius: 30px;
+        .slider {
+            left: 0;
+            position: absolute;
+            width: 140px;
+            height: 100%;
+            background: linear-gradient(to right, #ff105f, #ffad06);
+            border-radius: 30px;
+            transition: 0.5s;
+        }
+
+        .toggle-button {
+            height: 100%;
+            padding: 2px 35px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            background: transparent;
+            position: relative;
+            outline: none;
+        }
+    }
+
+    #login_form {
+        left: 75px;
+    }
+
+    #register_form {
+        right: -250px;
+    }
+
+    .input-group {
+        position: absolute;
+        width: 225px;
+        transition: 0.5s;
+        .form-control {
+            position: relative;
+            width: 100%;
+            .user-id {
+                font-size: 14px;
+                font-weight: 200;
+                display: block;
+                width: 225px;
+                margin: 10px 0;
+                padding: 10px 0 10px 5px;
+                border: none;
+                border-bottom: 2px solid #999;
+                outline: none;
+                background: transparent;
+            }
+
+            span {
+                font-size: 15px;
+                display: flex;
+                justify-content: flex-start;
+                visibility: hidden;
+                margin: -10px 0 0 10px;
+            }
+
+            i {
+                visibility: hidden;
+                position: absolute;
+                top: 12px;
+                right: 1px;
+            }
+        }
+        .term,
+        .term-2 {
+            width: 60%;
+            height: 30px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            input {
+                margin: auto;
+                width: 20px;
+                height: 15x;
+            }
+
+            span {
+                width: 110px;
+                line-height: 30px;
+            }
+        }
+
+        .term-2 {
+            width: 100%;
+            span {
+                width: 185px;
+                font-size: 12px;
+            }
+        }
+
+        .submit {
+            width: 85%;
+            padding: 10px 30px;
+            margin: 20px auto;
+            cursor: pointer;
+            background: linear-gradient(45deg, #ff105f, #ffad06);
+            border-radius: 30px;
+            outline: none;
+            border: none;
+        }
+    }
+}

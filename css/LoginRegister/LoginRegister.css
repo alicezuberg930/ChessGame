@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../../images/login_background.jpg");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-box {
+  width: 380px;
+  height: 500px;
+  position: absolute;
+  background-color: rgba(221, 238, 240, 0.8);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.form-box .button-box {
+  position: relative;
+  margin: 20px auto;
+  width: 260px;
+  height: 50px;
+  -webkit-box-shadow: 0 0 20px 9px #ff61241f;
+          box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.form-box .button-box .slider {
+  left: 0;
+  position: absolute;
+  width: 140px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff105f), to(#ffad06));
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form-box .button-box .toggle-button {
+  height: 100%;
+  padding: 2px 35px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  outline: none;
+}
+
+.form-box #login_form {
+  left: 75px;
+}
+
+.form-box #register_form {
+  right: -250px;
+}
+
+.form-box .input-group {
+  position: absolute;
+  width: 225px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form-box .input-group .form-control {
+  position: relative;
+  width: 100%;
+}
+
+.form-box .input-group .form-control .user-id {
+  font-size: 14px;
+  font-weight: 200;
+  display: block;
+  width: 225px;
+  margin: 10px 0;
+  padding: 10px 0 10px 5px;
+  border: none;
+  border-bottom: 2px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.form-box .input-group .form-control span {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  visibility: hidden;
+  margin: -10px 0 0 10px;
+}
+
+.form-box .input-group .form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 12px;
+  right: 1px;
+}
+
+.form-box .input-group .term,
+.form-box .input-group .term-2 {
+  width: 60%;
+  height: 30px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.form-box .input-group .term input,
+.form-box .input-group .term-2 input {
+  margin: auto;
+  width: 20px;
+  height: 15x;
+}
+
+.form-box .input-group .term span,
+.form-box .input-group .term-2 span {
+  width: 110px;
+  line-height: 30px;
+}
+
+.form-box .input-group .term-2 {
+  width: 100%;
+}
+
+.form-box .input-group .term-2 span {
+  width: 185px;
+  font-size: 12px;
+}
+
+.form-box .input-group .submit {
+  width: 85%;
+  padding: 10px 30px;
+  margin: 20px auto;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff105f, #ffad06);
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=LoginRegister.css.map */
